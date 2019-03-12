@@ -10,7 +10,8 @@ import MyScreen from '../screens/MyScreen'
 
 const HomeStack = createStackNavigator({
   Home: HomeScreen,
-});
+
+},{headerMode:'none'});
 
 HomeStack.navigationOptions = {
   tabBarLabel: 'Home',
